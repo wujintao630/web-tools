@@ -1,0 +1,17 @@
+server:
+  port: 10000
+  servlet:
+    context-path: /webtools
+
+spring:
+  application:
+    name: web-tools
+
+  #bean覆盖
+  main:
+    allow-bean-definition-overriding: true
+
+#日志配置
+logging:
+  config: classpath:logConfig/log4j2-dev.xml
+
